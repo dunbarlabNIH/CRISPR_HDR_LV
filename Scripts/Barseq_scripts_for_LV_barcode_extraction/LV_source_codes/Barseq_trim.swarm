@@ -1,0 +1,38 @@
+#for submitting swarm job 
+#swarm --module trimmomatic --time 2-00:00:00 -t 8 -g 100 -f Barseq_trim.swarm
+
+trimmomatic SE -phred33  BL-8120_77_S77_L002_R1_001.fastq.gz BL-8120_77_S77_L002_R1_001_trimmed.fastq.gz CROP:50
+
+trimmomatic SE -phred33  BL-8120_78_S78_L002_R1_001.fastq.gz BL-8120_78_S78_L002_R1_001_trimmed.fastq.gz CROP:50
+
+trimmomatic SE -phred33  BL-8120_79_S79_L002_R1_001.fastq.gz BL-8120_79_S79_L002_R1_001_trimmed.fastq.gz CROP:50
+
+trimmomatic SE -phred33  BL-8120_80_S80_L002_R1_001.fastq.gz BL-8120_80_S80_L002_R1_001_trimmed.fastq.gz CROP:50
+
+trimmomatic SE -phred33  BL-8120_81_S81_L002_R1_001.fastq.gz BL-8120_81_S81_L002_R1_001_trimmed.fastq.gz CROP:50
+
+trimmomatic SE -phred33  BL-8120_82_S82_L002_R1_001.fastq.gz BL-8120_82_S82_L002_R1_001_trimmed.fastq.gz CROP:50
+
+trimmomatic SE -phred33  BL-8120_83_S83_L002_R1_001.fastq.gz BL-8120_83_S83_L002_R1_001_trimmed.fastq.gz CROP:50
+
+trimmomatic SE -phred33  BL-8120_84_S84_L002_R1_001.fastq.gz BL-8120_84_S84_L002_R1_001_trimmed.fastq.gz CROP:50
+
+trimmomatic SE -phred33  BL-8120_85_S85_L002_R1_001.fastq.gz BL-8120_85_S85_L002_R1_001_trimmed.fastq.gz CROP:50
+
+trimmomatic SE -phred33  BL-8120_86_S86_L002_R1_001.fastq.gz BL-8120_86_S86_L002_R1_001_trimmed.fastq.gz CROP:50
+
+trimmomatic SE -phred33  BL-8120_87_S87_L002_R1_001.fastq.gz BL-8120_87_S87_L002_R1_001_trimmed.fastq.gz CROP:50
+
+trimmomatic SE -phred33  BL-8120_88_S88_L002_R1_001.fastq.gz BL-8120_88_S88_L002_R1_001_trimmed.fastq.gz CROP:50
+
+trimmomatic SE -phred33  BL-8120_89_S89_L002_R1_001.fastq.gz BL-8120_89_S89_L002_R1_001_trimmed.fastq.gz CROP:50
+
+trimmomatic SE -phred33  BL-8120_90_S90_L002_R1_001.fastq.gz BL-8120_90_S90_L002_R1_001_trimmed.fastq.gz CROP:50
+
+trimmomatic SE -phred33  BL-8120_91_S91_L002_R1_001.fastq.gz BL-8120_91_S91_L002_R1_001_trimmed.fastq.gz CROP:50
+
+trimmomatic SE -phred33  BL-8120_92_S92_L002_R1_001.fastq.gz BL-8120_92_S92_L002_R1_001_trimmed.fastq.gz CROP:50
+
+trimmomatic SE -phred33  BL-8120_93_S93_L002_R1_001.fastq.gz BL-8120_93_S93_L002_R1_001_trimmed.fastq.gz CROP:50
+
+trimmomatic SE -phred33  BL-8120_94_S94_L002_R1_001.fastq.gz BL-8120_94_S94_L002_R1_001_trimmed.fastq.gz CROP:50
