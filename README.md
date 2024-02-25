@@ -1,5 +1,5 @@
 # CRISPR_HDR_LV
-<pre>
+
 This repository is for the data and scripts used in the “Impact of CRISPR/HDR-editing versus lentiviral transduction on long-term engraftment and clonal dynamics of HSPCs in rhesus macaques” paper by Lee et al.
 
 Figures 3C-E, 6A-B, 6D-E, 7A-F (Extracted Barcodes and Counts):
@@ -8,4 +8,4 @@ Within “Scripts”, “BARseq_scripts_for_HDR_barcode_extraction” and “BAR
 Figures 3A-D, 5A-B (Editing Efficiency):
 Within “Scripts”, “Miseq_trim.swarm” contains the script used to trim the original fastq files, and “crispresso_CD33_editing_efficiency.swarm” contains a sample swarm file for running crispresso.
 “CD33_EditingEfficiency_Data” provides sample raw and trimmed fastq files for each of the three animals
-</pre>
+
